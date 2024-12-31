@@ -1,10 +1,28 @@
 <?xml version="1.0"?>
-<speak version="1.1"
-       xmlns="http://www.w3.org/2001/10/synthesis"
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
                  http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
        xml:lang="ja-JP">
+  <metadata>
+    <rdf:RDF xmlns:rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:rdfs = "http://www.w3.org/2000/01/rdf-schema#"
+             xmlns:dc = "http://purl.org/dc/elements/1.1/">
+      <!-- Metadata about the synthesis document -->
+      <rdf:Description dc:title="斜陽 朗読"
+                       dc:description="Google Cloud Text-to-Speechによる斜陽の朗読です"
+                       dc:language="ja-JP"
+                       dc:date="2024-12-31"
+                       dc:rights="Copyright 2002 Akira Otaka"
+                       dc:format="application/ssml+xml" >                
+        <dc:creator>
+          <rdf:Seq ID="CreatorsAlphabeticalBySurname">
+            <rdf:li>Akira Otaka</rdf:li>
+          </rdf:Seq>
+        </dc:creator>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
   <p>
     <s>朝、食堂でスウプを<sub alias="ひとさじ">一さじ</sub>、すっと吸ってお母さまが、</s>
     <s><prosody rate="slow" pitch="+7st">「あ」</prosody></s>
@@ -12,6 +30,9 @@
     <s>「髪の毛？」</s>
     <s>スウプに何か、イヤなものでも入っていたのかしら、と思った。</s>
     <s><prosody rate="slow" pitch="+4st">「いいえ」</prosody></s>
-    <s>お母さまは、何事も無かったように、またひらりと<sub alias="ひとさじ">一さじ</sub>、スウプをお口に流し込み、すましてお顔を横に向け、お勝手の窓の、満開の<sub alias="やまざくら">山桜</sub>に視線を送り、そうしてお顔を横に向けたまま、またひらりと<sub alias="ひとさじ">一さじ</sub>、スウプを小さなお唇のあいだに滑り込ませた。</s><s><prosody rate="slow">ヒラリ</prosody>、という形容は、お母さまの場合、決して誇張では無い。</s><s>婦人雑誌などに出ているお食事のいただき方などとは、てんでまるで、違っていらっしゃる。</s><s>弟の<sub alias="なおじ">直治</sub>がいつか、お酒を飲みながら、姉の私に向ってこう言った事がある。</s>
+    <s>お母さまは、何事も無かったように、またひらりと<sub alias="ひとさじ">一さじ</sub>、スウプをお口に流し込み、すましてお顔を横に向け、お勝手の窓の、満開の<sub alias="やまざくら">山桜</sub>に視線を送り、そうしてお顔を横に向けたまま、またひらりと<sub alias="ひとさじ">一さじ</sub>、スウプを小さなお唇のあいだに滑り込ませた。</s>
+    <s><prosody rate="slow">ヒラリ</prosody>、という形容は、お母さまの場合、決して誇張では無い。</s>
+    <s>婦人雑誌などに出ているお食事のいただき方などとは、てんでまるで、違っていらっしゃる。</s>
+    <s>弟の<sub alias="なおじ">直治</sub>がいつか、お酒を飲みながら、姉の私に向ってこう言った事がある。</s>
   </p>
 </speak>
